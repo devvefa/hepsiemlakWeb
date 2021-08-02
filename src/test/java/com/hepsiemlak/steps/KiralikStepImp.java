@@ -48,7 +48,7 @@ public class KiralikStepImp  {
             logger.info("Ana sayfanın açıldığı kontrol edilidi");
 
         } catch (Exception e) {
-            logger.warn("Yanlış Siteye Gidildi ");
+            logger.warn("Yanlış Siteye Giris Yapildi");
         }
     }
 
@@ -56,8 +56,7 @@ public class KiralikStepImp  {
     @Step({"Kiralık sayfasına gidilir.", "Click on “Kiralık”"})
     public void clickOnKiralik() {
         mainPage.clickOnKiralik();
-        logger.info("Kiralık sayfasına gidilidi");
-        logger.info("Menüden Kiralığa tıklanır");
+        logger.info("Menüden Kiralığa tıklandı");
 
 
     }
@@ -66,10 +65,10 @@ public class KiralikStepImp  {
     public void checkKiralikPageIsOpened() {
         try {
             assertEquals(KIRALIK_PAGE_TITLE, kiralikPage.getKiralikTitle());
-            logger.info("Ana sayfanın açıldığı kontrol edilidi");
+            logger.info("Kiralık Sayfasının açıldığı kontrol edilidi");
 
         } catch (Exception e) {
-            logger.warn("Yanlış Siteye Giris Yapildi");
+            logger.warn("Yanlış Siteye Gidildi");
         }
     }
 
