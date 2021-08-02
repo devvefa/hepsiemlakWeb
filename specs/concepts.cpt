@@ -1,0 +1,32 @@
+
+# Make a search for satılık:
+* select City as  "Elazığ"
+* select Country as
+| table     |
+| Palu   |
+| Maden|
+* select category as  "İşyeri"
+* Enter minprice  as "100000"
+* Enter maxprice  as "2000000"
+
+* select building age as
+|bulilding_age|
+| Sıfır Bina|
+| 1-5       |
+| 6-10      |
+
+
+
+# Make a search for kiralık:
+* Choice City as "Yalova"
+* select Countries as
+| table     |
+| Armutlu   |
+| Merkez    |
+* select category as "Konut"
+* select room type as
+| room_type |
+| 1+1|
+| 2+1|
+
+* Select with in Site
